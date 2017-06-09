@@ -1,0 +1,103 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+	position: relative;
+}
+
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: lightgray;
+	width: 100%;
+}
+
+img {
+	width: 100px
+
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+}
+
+section {
+	background: white;	
+	margin: 7px;
+	padding: 5px;
+
+}
+
+.sec1 {
+	width: 67%;
+}
+
+.sec2 {
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	text-align: center ;
+	font-size: 12px;
+	font-family: arial;
+	
+}
+
+.sec2 div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 7px;
+	background-color: red;
+}
+.sec2 div img {
+	width: 80px;
+}
+.sec2 div:first-child img {
+	width: 100px;
+	margin: 0 10px;
+	margin-bottom: 20px;
+
+}
+
+.sec2 div p {
+	display: flex;
+	flex-direction: column;
+	/*align-content: space-around;*/
+	align-items: baseline;	
+}
+
+.div1 {
+	/*display: flex;*/
+}
+
+.sec3 {
+	width: 30%;
+}
+
+.sec3 img {
+	width: 40%;
+}
+
+.div-sec3-3 {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.sec4 {
+	width: 67%;
+}
+
+.sec5 {
+	width: 50%;
+}
+
+.sec6 {
+	width: 40%;
+}
+
+.sec7 {
+	width: 10%;
+}
