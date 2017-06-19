@@ -8,7 +8,7 @@ html, body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: lightgray;
+	background: #f2eaea;
 	width: 100%;
 	font-family: arial;
 	font-size: 17px;
@@ -29,7 +29,7 @@ section {
 	background: white;	
 	margin: 9px;
 	padding: 15px;
-
+	box-shadow: 5px 5px 5px #d1cccc;
 }
 
 .sec1 {
@@ -80,7 +80,7 @@ section {
 }
 
 .sec3 p {
-	font-family: "timesnewroman-italico";
+	font-family:"timesnewroman-italico";
 	font-size: 20px;
 }
 
@@ -121,14 +121,15 @@ section {
 .div-sec4-2 h3 {
 	font-size: 100%;
 	font-weight: bold;
-	margin-top: 10px;
+	margin-top: 20px;
     margin-bottom: 0px;
-    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .div-sec4-2 div ul {
 	list-style: none;
 	padding-left: 0;
+	margin-top: 0;
 }
 
 .div-sec4-2 div ul li:before{
@@ -140,7 +141,7 @@ section {
 }
 
 .sec5 {
-	width: 55%;
+	width: 55.7%;
 }
 
 .sec5 p {
@@ -180,11 +181,25 @@ section {
     line-height: 40px;
 }
 
-/*.sec7 ul li:before {
-	content: "• ";
-}*/
+.underline {
+   text-decoration: none;
+   position: relative;
+ }   
 
+.underline:after {
+    position: absolute;
+    height: 1px;
+    margin: 0 auto;
+    content: '';
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: #000;
+    background-color: blue;
+    left: 0;
+    bottom: -3px;
+}
 @font-face {
-	font-family: "timesnewroman-italico";
+	font-family:"timesnewroman-italico";
 	src:url(fonts/timesi.ttf);
 }
